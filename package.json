@@ -1,0 +1,24 @@
+{
+  "name": "arisanjkt",
+  "version": "1.0.0",
+  "description": "aplikasi rest api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sarjono-cmd/arisanjkt.git"
+  },
+  "keywords": [
+    "rest",
+    "api",
+    "nodejs"
+  ],
+  "author": "Sarjono",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sarjono-cmd/arisanjkt/issues"
+  },
+  "homepage": "https://github.com/sarjono-cmd/arisanjkt#readme"
+}
