@@ -48,3 +48,20 @@ exports.tambahanggota = function (req, res) {
             }
         });
 };
+//mengubah data berdasarkan id
+exports.ubahanggota = function (req, res) {
+    var id = req.body.id_anggota;
+    var nama = req.body.nama;
+    var alamat = req.body.alamat;
+    var no_telpon = req.body.no_telpon;
+
+    connection.query('UPDATE nama_anggota SET  nama=?, alamat=?, no_telpon=? WHERE id_anggota=?', [nama, alamat, no_telpon, id],
+        function (error, rows, fields) {
+            if (error) {
+                console.log(error);
+            } else {
+                response.ok("Berhasil Ubah Data", res)
+            }
+        });
+}
+
